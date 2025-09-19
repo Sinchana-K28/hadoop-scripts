@@ -1,5 +1,5 @@
 
-sudo apt update && sudo apt install git -y  <br>
+sudo apt update <br>sudo apt install git -y  <br>
 git clone https://github.com/Sinchana-K28/hadoop-scripts.git<br>
 cd hadoop-scripts<br>
 chmod +x hadoop_program1.sh<br>
