@@ -2,24 +2,22 @@
 sudo apt update && sudo apt install git -y  <br>
 
 # Clone your GitHub repository (first time only)
-git clone https://github.com/Sinchana-K28/hadoop-scripts.git
+git clone https://github.com/Sinchana-K28/hadoop-scripts.git<br>
 
 # Go inside repo folder
-cd hadoop-scripts
+cd hadoop-scripts<br>
 
 # Make script executable
-chmod +x hadoop_program1.sh
+chmod +x hadoop_program1.sh<br>
 
 # Run the script
-./hadoop_program1.sh
+./hadoop_program1.sh<br>
 
 
 
 🔄 For future runs (after you update on laptop and push to GitHub)
-On your college desktop, just do:
+On your college desktop, just do:<br>
 
-bash
-Copy code
-cd hadoop-scripts
-git pull
-./hadoop_program1.sh
+cd hadoop-scripts<br>
+git pull<br>
+./hadoop_program1.sh<br>
