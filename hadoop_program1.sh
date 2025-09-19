@@ -9,9 +9,9 @@ hdfs dfs -mkdir -p /user/root/demodir
 hdfs dfs -ls /user/root
 
 cd ~/Desktop
-echo "Successfully executed basic HDFS file operations" > temp.txt
+echo "Successfully executed" > temp1.txt
 ls
-cat temp.txt
+cat temp1.txt
 
-hdfs dfs -copyFromLocal temp.txt /user/root/demodir
-hdfs dfs -cat /user/root/demodir/temp.txt
+hdfs dfs -copyFromLocal temp1.txt /user/root/demodir
+hdfs dfs -cat /user/root/demodir/temp1.txt
